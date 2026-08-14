@@ -274,4 +274,3 @@ All notable changes to TPTE Tradingjournal are documented here.
 
 ### Changed
 - Clean deployment ZIPs contain no demo trades, reviews, raw imports, media or backups.
-
