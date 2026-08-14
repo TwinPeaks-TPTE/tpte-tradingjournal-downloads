@@ -25,7 +25,10 @@
           <small>Tradingjournal</small>
         </span>
       </a>
-      <a class="header-link" href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases">Versionsarchiv</a>
+      <nav class="header-nav" aria-label="Seitennavigation">
+        <a class="header-link" href="#versionsarchiv">Alle Versionen</a>
+        <a class="header-link" href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases">GitHub Releases</a>
+      </nav>
     </header>
 
     <main>
@@ -92,6 +95,27 @@
           <h2 id="update-title">Beim Update nur den App-Ordner ersetzen.</h2>
         </div>
         <p>Dein bestehender Datenordner bleibt unverändert. Ersetze niemals persönliche Journal-Daten durch das leere Daten-Template aus dem Download.</p>
+      </section>
+
+      <section class="history-section" id="versionsarchiv" aria-labelledby="history-title">
+        <div class="history-heading">
+          <div>
+            <p class="section-label">Vollständige Versionshistorie</p>
+            <h2 id="history-title">Alle Änderungen – so weit zurück wie dokumentiert.</h2>
+            <p id="history-summary">Das vollständige Changelog wird geladen …</p>
+          </div>
+          <div class="history-actions" aria-label="Versionshistorie steuern">
+            <button type="button" id="expand-history">Alle öffnen</button>
+            <button type="button" id="collapse-history">Alle schließen</button>
+          </div>
+        </div>
+        <nav class="version-index" id="version-index" aria-label="Direkt zu einer Version"></nav>
+        <div class="release-history" id="release-history">
+          <p class="history-status" role="status" aria-live="polite">Versionshistorie wird geladen …</p>
+        </div>
+        <noscript>
+          <p class="history-status">Die vollständige Historie steht auch direkt im <a href="./CHANGELOG.md">CHANGELOG.md</a>.</p>
+        </noscript>
       </section>
     </main>
 
