@@ -4,6 +4,15 @@ All notable changes to TPTE Tradingjournal are documented here.
 
 ## [Unreleased]
 
+## [0.17.6] - 2026-08-14
+
+### Fixed
+- Neue oder geänderte MAE-/MFE-Werte müssen ganze, nichtnegative Ticks sein; das gilt auch für Sammelbearbeitung und Import.
+- Bestehende Legacy-Dezimalwerte bleiben unverändert les- und speicherbar, solange der jeweilige Wert nicht geändert wird.
+
+### Changed
+- Info-Tooltips an den MAE-/MFE-Feldern erklären Bedeutung, Einheit und Ganzzahlregel.
+
 ## [0.17.5] - 2026-08-14
 
 ### Fixed
