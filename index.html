@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#07111f" />
+    <meta name="description" content="Offizieller Download und aktuelle Release Notes für das TPTE Tradingjournal." />
+    <meta property="og:title" content="TPTE Tradingjournal – offizieller Download" />
+    <meta property="og:description" content="Immer die aktuelle geprüfte Version des lokalen TPTE Tradingjournals herunterladen." />
+    <meta property="og:type" content="website" />
+    <title>TPTE Tradingjournal – Download</title>
+    <link rel="icon" href="./icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#download">Zum Download springen</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="TPTE Tradingjournal Downloadseite">
+        <img src="./icon-192.png" alt="" width="42" height="42" />
+        <span>
+          <strong>TPTE</strong>
+          <small>Tradingjournal</small>
+        </span>
+      </a>
+      <a class="header-link" href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases">Versionsarchiv</a>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Offizieller Download</p>
+          <h1 id="page-title">Dein Tradingjournal.<br /><em>Lokal und unter Kontrolle.</em></h1>
+          <p class="lede">
+            Lade hier immer die aktuelle, geprüfte Version des TPTE Tradingjournals herunter.
+            Die App läuft lokal; persönliche Journal- und Mediendaten bleiben in deinem Datenordner.
+          </p>
+          <div class="trust-row" aria-label="Produkteigenschaften">
+            <span>Offline-fähig</span>
+            <span>Lokale Daten</span>
+            <span>Geprüftes ZIP</span>
+          </div>
+        </div>
+
+        <aside class="download-card" id="download" aria-labelledby="download-title">
+          <div class="release-meta">
+            <span class="status-dot"></span>
+            <span>Aktuelle Version</span>
+            <strong id="release-version">wird geladen</strong>
+          </div>
+          <h2 id="download-title">TPTE Tradingjournal</h2>
+          <p id="release-date">Release-Daten werden geladen …</p>
+          <a
+            class="download-button"
+            id="download-link"
+            href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases/latest"
+          >
+            <span>Aktuelle Version herunterladen</span>
+            <small id="download-detail">ZIP · macOS und Windows</small>
+          </a>
+          <div class="card-links">
+            <a id="release-link" href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases/latest">Release auf GitHub</a>
+            <a href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/blob/main/INSTALL_UPDATE.md">Installation &amp; Update</a>
+          </div>
+        </aside>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel release-panel" aria-labelledby="notes-title">
+          <p class="section-label">Was ist neu?</p>
+          <h2 id="notes-title">Release Notes <span id="notes-version"></span></h2>
+          <ul id="release-notes">
+            <li>Die aktuellen Änderungen werden direkt aus dem neuesten GitHub-Release geladen.</li>
+          </ul>
+          <p class="load-note" id="release-status" role="status" aria-live="polite">Aktuelle Release-Daten werden geprüft …</p>
+        </article>
+
+        <aside class="panel integrity-panel" aria-labelledby="integrity-title">
+          <p class="section-label">Dateiprüfung</p>
+          <h2 id="integrity-title">Original verifizieren</h2>
+          <p>Vergleiche nach dem Download optional den SHA-256-Wert der ZIP-Datei.</p>
+          <code id="release-digest">Wird nach dem Laden des Releases angezeigt.</code>
+          <a id="checksum-link" href="https://github.com/TwinPeaks-TPTE/tpte-tradingjournal-downloads/releases/latest">SHA256SUMS.txt öffnen</a>
+        </aside>
+      </section>
+
+      <section class="update-note" aria-labelledby="update-title">
+        <div>
+          <p class="section-label">Schon installiert?</p>
+          <h2 id="update-title">Beim Update nur den App-Ordner ersetzen.</h2>
+        </div>
+        <p>Dein bestehender Datenordner bleibt unverändert. Ersetze niemals persönliche Journal-Daten durch das leere Daten-Template aus dem Download.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="current-year">2026</span> TwinPeaks TPTE</span>
+      <span>Offizielle Downloadquelle des TPTE Tradingjournals</span>
+    </footer>
+  </body>
+</html>
